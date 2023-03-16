@@ -19,6 +19,10 @@ This is a simple number guessing game where the player tries to guess a secret n
 6. The game will give you feedback on whether your guess was too high, too low, or correct.
 7. Keep guessing until you correctly guess the number, or until you have used up all your tries.
 
+## Running Tests
+
+This project uses [Jest](https://jestjs.io/) for testing. To run the tests, run `npm test` to see the results.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
