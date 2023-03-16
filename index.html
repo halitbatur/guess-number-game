@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guess the Number Game</h1>
+      <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+      <form>
+        <label for="guess-input">Enter your guess (1-100):</label>
+        <input type="number" id="guess-input" name="guess" min="1" max="100" />
+        <button type="submit" id="guess-btn">Guess</button>
+      </form>
+      <p id="feedback"></p>
+      <p id="tries"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
